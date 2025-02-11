@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tddProject.dir/main.cpp.o -o tddProject/binaries/tddProject  -Wl,-rpath,/home/parallels/projects/studyProject/build/tddProject/binaries/lib tddProject/binaries/lib/libPrinter.so 

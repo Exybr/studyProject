@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/parallels/projects/studyProject/build",
+  "command": "/usr/bin/c++  -I/home/parallels/projects/studyProject/build -I/home/parallels/projects/studyProject -I/home/parallels/projects/studyProject/TestTask/libs/printer/include -g -o CMakeFiles/tddProject.dir/main.cpp.o -c /home/parallels/projects/studyProject/main.cpp",
+  "file": "/home/parallels/projects/studyProject/main.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/googletests/gtest",
+  "command": "/usr/bin/c++ -Dgtest_EXPORTS -I/home/parallels/projects/studyProject/build/googletests/gtest -I/home/parallels/projects/studyProject/googletests/gtest -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock -I/home/parallels/projects/studyProject/googletests/gtest/gtest -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -g -fPIC -std=gnu++11 -o CMakeFiles/gtest.dir/gmock/src/gmock-all.cc.o -c /home/parallels/projects/studyProject/googletests/gtest/gmock/src/gmock-all.cc",
+  "file": "/home/parallels/projects/studyProject/googletests/gtest/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/googletests/gtest",
+  "command": "/usr/bin/c++ -Dgtest_EXPORTS -I/home/parallels/projects/studyProject/build/googletests/gtest -I/home/parallels/projects/studyProject/googletests/gtest -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock -I/home/parallels/projects/studyProject/googletests/gtest/gtest -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -g -fPIC -std=gnu++11 -o CMakeFiles/gtest.dir/gtest/src/gtest-all.cc.o -c /home/parallels/projects/studyProject/googletests/gtest/gtest/src/gtest-all.cc",
+  "file": "/home/parallels/projects/studyProject/googletests/gtest/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/printer",
+  "command": "/usr/bin/c++ -DPrinter_EXPORTS -I/home/parallels/projects/studyProject/build/TestTask/libs/printer -I/home/parallels/projects/studyProject/TestTask/libs/printer -I/home/parallels/projects/studyProject/TestTask/libs/printer/include -I/home/parallels/projects/studyProject/TestTask/libs/printer/lib -I/home/parallels/projects/studyProject/TestTask/libs/printer/include/Printer -g -fPIC -o CMakeFiles/Printer.dir/source/printer.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/printer/source/printer.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/printer/source/printer.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/printer",
+  "command": "/usr/bin/c++  -I/home/parallels/projects/studyProject/build/TestTask/libs/printer -I/home/parallels/projects/studyProject/TestTask/libs/printer -I/home/parallels/projects/studyProject/TestTask/libs/printer/include -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -g -o CMakeFiles/Printer_t.dir/test/main.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/printer/test/main.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/printer/test/main.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/printer",
+  "command": "/usr/bin/c++  -I/home/parallels/projects/studyProject/build/TestTask/libs/printer -I/home/parallels/projects/studyProject/TestTask/libs/printer -I/home/parallels/projects/studyProject/TestTask/libs/printer/include -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -g -o CMakeFiles/Printer_t.dir/test/printer_test.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/printer/test/printer_test.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/printer/test/printer_test.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/exampleProject",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DexampleProject_EXPORTS -I/home/parallels/projects/studyProject/build/TestTask/libs/exampleProject -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject/include -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject/lib -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject/include/exampleProject -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -g -fPIC -fPIC -o CMakeFiles/exampleProject.dir/source/exampleclass.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/exampleProject/source/exampleclass.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/exampleProject/source/exampleclass.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/exampleProject",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/projects/studyProject/build/TestTask/libs/exampleProject -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject/include -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/exampleProject_t.dir/test/example_test.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/exampleProject/test/example_test.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/exampleProject/test/example_test.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/exampleProject",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parallels/projects/studyProject/build/TestTask/libs/exampleProject -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject -I/home/parallels/projects/studyProject/TestTask/libs/exampleProject/include -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/exampleProject_t.dir/test/main.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/exampleProject/test/main.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/exampleProject/test/main.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/complex",
+  "command": "/usr/bin/c++ -Dcomplex_EXPORTS -I/home/parallels/projects/studyProject/build/TestTask/libs/complex -I/home/parallels/projects/studyProject/TestTask/libs/complex -I/home/parallels/projects/studyProject/TestTask/libs/complex/include -I/home/parallels/projects/studyProject/TestTask/libs/complex/lib -I/home/parallels/projects/studyProject/TestTask/libs/complex/include/complex -g -fPIC -o CMakeFiles/complex.dir/source/complex.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/complex/source/complex.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/complex/source/complex.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/complex",
+  "command": "/usr/bin/c++  -I/home/parallels/projects/studyProject/build/TestTask/libs/complex -I/home/parallels/projects/studyProject/TestTask/libs/complex -I/home/parallels/projects/studyProject/TestTask/libs/complex/include -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -g -o CMakeFiles/complex_t.dir/test/complex_test.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/complex/test/complex_test.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/complex/test/complex_test.cpp"
+},
+{
+  "directory": "/home/parallels/projects/studyProject/build/TestTask/libs/complex",
+  "command": "/usr/bin/c++  -I/home/parallels/projects/studyProject/build/TestTask/libs/complex -I/home/parallels/projects/studyProject/TestTask/libs/complex -I/home/parallels/projects/studyProject/TestTask/libs/complex/include -I/home/parallels/projects/studyProject/googletests/gtest/gtest/include -I/home/parallels/projects/studyProject/googletests/gtest/gmock/include -g -o CMakeFiles/complex_t.dir/test/main.cpp.o -c /home/parallels/projects/studyProject/TestTask/libs/complex/test/main.cpp",
+  "file": "/home/parallels/projects/studyProject/TestTask/libs/complex/test/main.cpp"
+}
+]

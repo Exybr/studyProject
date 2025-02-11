@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/complex_t.dir/test/complex_test.cpp.o CMakeFiles/complex_t.dir/test/main.cpp.o -o ../../../test/complex_t  -Wl,-rpath,/home/parallels/projects/studyProject/build/tddProject/binaries/lib ../../../tddProject/binaries/lib/libcomplex.so ../../../tddProject/binaries/lib/libgtest.so 

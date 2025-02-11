@@ -1,0 +1,291 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"build" : "googletests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-googletests-Debug-4f83269de314eaab97fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "googletests"
+				},
+				{
+					"build" : "googletests/gtest",
+					"jsonFile" : "directory-googletests.gtest-Debug-76592a4968c4e03a0628.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "googletests/gtest",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "TestTask/libs/printer",
+					"jsonFile" : "directory-TestTask.libs.printer-Debug-03b5b85ae7298c422417.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "TestTask/libs/printer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "TestTask/libs/exampleProject",
+					"jsonFile" : "directory-TestTask.libs.exampleProject-Debug-575ca9840940ce145779.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "TestTask/libs/exampleProject",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "TestTask/libs/complex",
+					"jsonFile" : "directory-TestTask.libs.complex-Debug-612e35a37193024a0b97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "TestTask/libs/complex",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tddProject",
+					"targetIndexes" : 
+					[
+						5,
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unittest",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Printer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "exampleProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "complex",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Printer::@2943423362c741623ec0",
+					"jsonFile" : "target-Printer-Debug-a47723276a744a0fc676.json",
+					"name" : "Printer",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Printer_t::@2943423362c741623ec0",
+					"jsonFile" : "target-Printer_t-Debug-e6fc6a1f2afc579a72e5.json",
+					"name" : "Printer_t",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Printer_tconf::@2943423362c741623ec0",
+					"jsonFile" : "target-Printer_tconf-Debug-f9d8b743d7d6a2b0e9b1.json",
+					"name" : "Printer_tconf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "complex::@b3b08f0fa2f69b691d60",
+					"jsonFile" : "target-complex-Debug-6d8134b187e3212fd0ef.json",
+					"name" : "complex",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "complex_t::@b3b08f0fa2f69b691d60",
+					"jsonFile" : "target-complex_t-Debug-28f8f99b07306182d775.json",
+					"name" : "complex_t",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "distclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-distclean-Debug-423ad12bd4027f0e83a9.json",
+					"name" : "distclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exampleProject::@8f84c6beb3f63cf079c8",
+					"jsonFile" : "target-exampleProject-Debug-fb4391d596858f5b4266.json",
+					"name" : "exampleProject",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exampleProject_t::@8f84c6beb3f63cf079c8",
+					"jsonFile" : "target-exampleProject_t-Debug-ca2edc708d56360ed90c.json",
+					"name" : "exampleProject_t",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exampleProject_tconf::@8f84c6beb3f63cf079c8",
+					"jsonFile" : "target-exampleProject_tconf-Debug-2fde94accab90e63bbc5.json",
+					"name" : "exampleProject_tconf",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@9a0cee8afed2a44c6706",
+					"jsonFile" : "target-gtest-Debug-f4c89a81d6779d6c2a5a.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tddProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tddProject-Debug-b94623ad5a17ae218eb4.json",
+					"name" : "tddProject",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parallels/projects/studyProject/build",
+		"source" : "/home/parallels/projects/studyProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
