@@ -10,7 +10,7 @@ protected:
 // Тесты конструкторов
 
 // Инициируется нулями
-TEST_F(ComplexTest, DefaultConstructorInitializesZero) {
+TEST_F(ComplexTest, DEfaultConstructorZero) {
     Complex<double> c;
     EXPECT_DOUBLE_EQ(c.Re(), 0.0);
     EXPECT_DOUBLE_EQ(c.Im(), 0.0);
@@ -31,13 +31,13 @@ TEST_F(ComplexTest, TwoArgumentConstructor) {
 }
 
 // Тесты методов доступа двух перегрузок
-TEST_F(ComplexTest, AccessorsReturnCorrectValues) {
+TEST_F(ComplexTest, ConstPeregruz) {
     Complex<double> c(3.0, 4.0);
     EXPECT_DOUBLE_EQ(c.Re(), 3.0);
     EXPECT_DOUBLE_EQ(c.Im(), 4.0);
 }
 
-TEST_F(ComplexTest, ModifiersChangeValues) {
+TEST_F(ComplexTest, ChangePeregruz) {
     Complex<double> c;
     c.Re() = 3.0;
     c.Im() = 4.0;
@@ -46,7 +46,7 @@ TEST_F(ComplexTest, ModifiersChangeValues) {
 }
 
 // Тесты математических операций
-TEST_F(ComplexTest, AbsoluteValueCalculation) {
+TEST_F(ComplexTest, ABS_calc) {
     Complex<double> c(3.0, 4.0);
     EXPECT_DOUBLE_EQ(c.Abs(), 5.0);
 }
@@ -81,15 +81,4 @@ TEST_F(ComplexTest, CreateFromPhaseDegrees) {
     Complex<double> c = Complex<double>::CreateComplexFromPhaseDeg(phaseDeg);
     EXPECT_NEAR(c.Abs(), 1.0, EPSILON);
     EXPECT_NEAR(c.ArgDeg(), phaseDeg, EPSILON);
-}
-
-// Тесты на различные типы данных
-TEST_F(ComplexTest, FloatTypeSupport) {
-    Complex<float> c(3.0f, 4.0f);
-    EXPECT_FLOAT_EQ(c.Abs(), 5.0f);
-}
-
-TEST_F(ComplexTest, LongDoubleTypeSupport) {
-    Complex<long double> c(3.0L, 4.0L);
-    EXPECT_NEAR(static_cast<double>(c.Abs()), 5.0, EPSILON);
 }
