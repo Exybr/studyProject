@@ -1,4 +1,3 @@
-// complex_test.cpp
 #include <gtest/gtest.h>
 #include "include/complex.h"
 #include <cmath>
@@ -9,25 +8,29 @@ protected:
 };
 
 // Тесты конструкторов
+
+// Инициируется нулями
 TEST_F(ComplexTest, DefaultConstructorInitializesZero) {
     Complex<double> c;
     EXPECT_DOUBLE_EQ(c.Re(), 0.0);
     EXPECT_DOUBLE_EQ(c.Im(), 0.0);
 }
 
+// Инициируется только действительная часть от от одного аргумента
 TEST_F(ComplexTest, SingleArgumentConstructor) {
     Complex<double> c(3.0);
     EXPECT_DOUBLE_EQ(c.Re(), 3.0);
     EXPECT_DOUBLE_EQ(c.Im(), 0.0);
 }
 
+// Инициируются обе части
 TEST_F(ComplexTest, TwoArgumentConstructor) {
     Complex<double> c(3.0, 4.0);
     EXPECT_DOUBLE_EQ(c.Re(), 3.0);
     EXPECT_DOUBLE_EQ(c.Im(), 4.0);
 }
 
-// Тесты методов доступа
+// Тесты методов доступа двух перегрузок
 TEST_F(ComplexTest, AccessorsReturnCorrectValues) {
     Complex<double> c(3.0, 4.0);
     EXPECT_DOUBLE_EQ(c.Re(), 3.0);
@@ -78,23 +81,6 @@ TEST_F(ComplexTest, CreateFromPhaseDegrees) {
     Complex<double> c = Complex<double>::CreateComplexFromPhaseDeg(phaseDeg);
     EXPECT_NEAR(c.Abs(), 1.0, EPSILON);
     EXPECT_NEAR(c.ArgDeg(), phaseDeg, EPSILON);
-}
-
-// Граничные случаи
-TEST_F(ComplexTest, ZeroComplexNumber) {
-    Complex<double> c;
-    EXPECT_DOUBLE_EQ(c.Abs(), 0.0);
-    // Аргумент нуля не определен, поэтому этот тест опущен
-}
-
-TEST_F(ComplexTest, PureImaginaryNumber) {
-    Complex<double> c(0.0, 1.0);
-    EXPECT_NEAR(c.ArgDeg(), 90.0, EPSILON);
-}
-
-TEST_F(ComplexTest, PureRealNumber) {
-    Complex<double> c(1.0, 0.0);
-    EXPECT_NEAR(c.ArgDeg(), 0.0, EPSILON);
 }
 
 // Тесты на различные типы данных

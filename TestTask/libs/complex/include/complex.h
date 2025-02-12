@@ -1,6 +1,7 @@
 #ifndef COMPLEX_H
 #define COMPLEX_H
 
+// Шаблонный класс комплексного числа
 template<typename T>
 class Complex {
 private:
@@ -15,10 +16,11 @@ public:
     Complex(T r, T i);
 
     // Методы доступа
-    const T& Re() const;
-    T& Re();
-    const T& Im() const;
-    T& Im();
+    const T& Re() const;   // Перегрузка 1
+    T& Re();               // Перегрузка 2
+    
+    const T& Im() const;   // Перегрузка 1
+    T& Im();               // Перегрузка 2
 
     // Математические операции
     T Abs() const;
